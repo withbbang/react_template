@@ -16,7 +16,7 @@
 
 #### src/index.js : Provider 컴포넌트에 store props 전달하여 하위 모든 컴포넌트에서 store를 손 쉽게 받을 수 있도록 함
 
-#### src/App.js OR src/componenets/\*/index.js : mapStateToProps, mapDispatchToProps를 통하여 store의 상태값들과 액션함수들 return, connect 함수로 하위 CT로 store의 상태값들과 액션함수들 전달
+#### src/App.js OR src/componenets/\*/index.js : mapStateToProps, mapDispatchToProps를 통하여 store의 상태값들과 액션함수들 return, connect 함수로 하위 CT에게 store의 상태값들과 액션함수들 전달
 
 #### \*CT.js : 각 페이지의 이벤트핸들러 및 변수 관리
 
