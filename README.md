@@ -14,7 +14,7 @@
 
 #### src/module/configureStore.js : 리듀서, 미들웨어 등 통합해서 스토어로 저장 후 export
 
-#### src/index.js : <Provider> 컴포넌트에 store props 전달하여 하위 모든 컴포넌트에서 store를 손 쉽게 받을 수 있도록 함
+#### src/index.js : Provider 컴포넌트에 store props 전달하여 하위 모든 컴포넌트에서 store를 손 쉽게 받을 수 있도록 함
 
 #### src/App.js OR src/screens/\*/index.js : mapStateToProps, mapDispatchToProps를 통하여 store의 상태값들과 액션함수들 return, connect 함수로 하위 Container로 store의 상태값들과 액션함수들 전달
 
