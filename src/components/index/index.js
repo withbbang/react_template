@@ -1,5 +1,5 @@
 import { connect } from "react-redux";
-import { example_1, example_2 } from "../../module/exampleModule";
+import { example_1, example_2 } from "module/exampleModule";
 import IndexCT from "./IndexCT";
 
 const mapStateToProps = (state) => {

@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
-import Index from "./components/index";
+import Index from "components/index";
 
 const App = () => {
   return (
